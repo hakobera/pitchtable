@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function() {
             audio.mozSetup(1, sampleRate);
             audio.mozWriteAudio(createSoundData());
         }
-    };
+    }
 
     // Bind events
     noteSelect.addEventListener('change', calcPitch, false);
