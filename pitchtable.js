@@ -71,7 +71,7 @@
             }
         }
 
-        console.log(noteNameToNoteNumber);
+        //console.log(noteNameToNoteNumber);
     };
 
     /**
