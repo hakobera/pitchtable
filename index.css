@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    width: 400px;
+    margin: 10px auto;
+    padding: 5px 10px;
+    background-color: rgb(198,215,247);
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        right bottom,
+        color-stop(0.16, rgb(198,215,247)),
+        color-stop(0.58, rgb(148,177,255))
+    );
+    background-image: -moz-linear-gradient(
+        left top,
+        rgb(198,215,247) 16%,
+        rgb(148,177,255) 58%
+    );
+    border-radius: 10px;
+}
+
+#content h1 {
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+}
+
+#inputs ul {
+    list-style: none;
+    display: inline-block;
+}
+
+#inputs li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+#inputs li label {
+    margin-right: 10px;
+}
+
+#inputs li select {
+    width: 80px;
+}
+
+#results {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#pitchinfo {
+    width: 100%;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Pitch Calculator</title>
+    <link href="index.css" rel="stylesheet" type="text/css"/>
+    <script src="pitchtable.js"></script>
+    <script src="index.js" defer="defer"></script>
+</head>
+<body>
+    <div id="content">
+        <h1>Pitch Calculator</h1>
+        <div id="inputs">
+            <ul>
+                <li><label>Note:</label><select id="note"></select></li>
+                <li><label>Octave:</label><select id="octave"></select></li>
+            </ul>
+        </div>
+        <div id="results">
+            <textarea id="pitchinfo"></textarea>
+            <p>A4 = 69 = 440Hz を基準とする</p>
+        </div>
+    </div>
+</body>
+</html>
