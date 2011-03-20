@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
         var note = noteSelect.value;
         var octave = octaveSelect.value;
         var pitch = PitchTable.calcPitch(note, octave);
-        var result = 'KeyB. Note = ' + pitch.noteName + ', MIDI Note = ' + pitch.noteNumber + ', Freq = ' + pitch.frequency;
+        var result = 'KeyB. Note = ' + pitch.noteName + ', MIDI Note = ' + pitch.noteNumber + ', Freq = ' + pitch.frequency.toFixed(3) + ' Hz';
         pitchInfoText.value = result;
     };
 
